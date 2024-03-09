@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "dgSpecHash": "spRTSpWt/Fg7OIyyB3vge/hRxG6JdOpAXSIolYfAQubA/o11rA/djJrTL/UMt0AQ9l/pQHrVePu92eCBT0MaNQ==",
+  "success": false,
+  "projectFilePath": "G:\\Github Projects\\fivem-as-service\\fivemAsService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.3\\microsoft.extensions.configuration.binder.7.0.3.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\7.0.0\\microsoft.extensions.configuration.commandline.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\7.0.0\\microsoft.extensions.configuration.usersecrets.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.hosting\\7.0.1\\microsoft.extensions.hosting.7.0.1.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.hosting.windowsservices\\8.0.0\\microsoft.extensions.hosting.windowsservices.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging.configuration\\7.0.0\\microsoft.extensions.logging.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging.console\\7.0.0\\microsoft.extensions.logging.console.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging.eventlog\\8.0.0\\microsoft.extensions.logging.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\7.0.0\\microsoft.extensions.logging.eventsource.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\7.0.0\\microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.1\\system.diagnostics.diagnosticsource.7.0.1.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\system.serviceprocess.servicecontroller\\8.0.0\\system.serviceprocess.servicecontroller.8.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\neobo\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Hosting from 8.0.0 to 7.0.1. Reference the package directly from the project to select a different version. \r\n fivemAsService -> Microsoft.Extensions.Hosting.WindowsServices 8.0.0 -> Microsoft.Extensions.Hosting (>= 8.0.0) \r\n fivemAsService -> Microsoft.Extensions.Hosting (>= 7.0.1)",
+      "libraryId": "Microsoft.Extensions.Hosting",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
