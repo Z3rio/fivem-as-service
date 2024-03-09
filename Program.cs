@@ -1,10 +1,14 @@
 using fivemAsService;
 
-IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices(services =>
-    {
-        services.AddHostedService<Worker>();
-    })
-    .Build();
+internal class Program {
+  static async Task Main(string[] args) {
+    IHost host = Host.CreateDefaultBuilder(args)
+                     .ConfigureServices(
+                         services => { services.AddHostedService<Worker>(); })
+                     .UseWindowsService()
+                     .Build();
 
-host.Run();
+    await host.RunAsync();
+    await host.StopAsync();
+  }
+}
