@@ -1,25 +1,24 @@
 # FiveM as a Service
 
-This is a simple project for running your Fivem server as an Windows Service.
+This is a simple project for running your Fivem server as a Windows Service.
 
 ## Why would I want to do that?
 
-Well, running your server as an service would mean that its all running in the
+Well, running your server as a service would mean that it all running in the
 background, you would no longer have to be afraid of accidentally closing the
 Terminal window running your server.
 
 It would also allow for the server to automatically be started upon startup, and
 automatically restarted if stopped, and so on.
 
-## How do I use it?
+## Quick start
 
-Either you can download the source and build it yourself, or you can download
-the prebuilt binaries on our
-[release page](https://github.com/Z3rio/fivem-as-service/releases) and run it
-from there
+1. **Building/Downloading the files**
+  <br/>Either download the prebuilt binaries via our [releases page](https://github.com/Z3rio/fivem-as-service/releases)
+  <br/>or, download the source and build the files yourself via `make build`
 
-## How do I configure it?
+2. **Configure**
+  <br/>Look through the `Server` section of the `appsettings.json` file and make sure it looks good
 
-Just configure the `appsettings.json` file correctly and it should all run
-smoothly, if it doesnt, then please open a
-[Github Issue](https://github.com/Z3rio/fivem-as-service/issues)
+3. **Install**
+  <br/>Either manually install the service via `sc`, or run the `installer.bat` file and it'll install everything for you.
