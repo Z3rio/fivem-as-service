@@ -18,7 +18,14 @@ public class Worker : BackgroundService {
     Config.Args = config.Server.args.ToObject<Dictionary<string, object>>();
   }
 
-  protected override async Task ExecuteAsync(CancellationToken stoppingToken) {
+    public override async Task StopAsync(CancellationToken cancellationToken)
+    {
+        await Task.Delay(1000);
+        _logger.LogInformation("Ended!");
+        Proc.Kill();
+    }
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken) {
     LoadConfig();
 
     while (!stoppingToken.IsCancellationRequested) {

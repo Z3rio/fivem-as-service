@@ -1,4 +1,6 @@
 using fivemAsService;
+using Microsoft.Extensions.Options;
+using System.Diagnostics;
 
 internal class Program {
   static async Task Main(string[] args) {
