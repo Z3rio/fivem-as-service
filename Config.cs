@@ -11,4 +11,9 @@ public class Config {
   /// Absolute path to FXServer Executable
   /// </summary>
   public static string? ExePath { get; set; }
+
+  /// <summary>
+  /// Arguments to pass with the FXServer Executable
+  /// </summary>
+  public static Dictionary<string, object>? Args { get; set; }
 }
